@@ -2,7 +2,7 @@ import Race from './Race';
 
 class Orc extends Race {
   static _valueStatic = 0;
-  constructor(dexterity: number, name : string, public hp: number = 74) {
+  constructor(name : string, dexterity: number, public hp: number = 74) {
     super(name, dexterity);
     Orc._valueStatic += 1;
   }

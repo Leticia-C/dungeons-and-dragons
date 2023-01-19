@@ -2,7 +2,7 @@ import Race from './Race';
 
 class Elf extends Race {
   static _valueStatic = 0;
-  constructor(dexterity: number, name : string, public hp: number = 99) {
+  constructor(name : string, dexterity: number, public hp: number = 99) {
     super(name, dexterity);
     Elf._valueStatic += 1;
   }
