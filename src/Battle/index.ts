@@ -1,3 +1,7 @@
-// import Battle from './Battle';
+import Battle from './Battle';
 
-// export default Battle;
+import Fighter from '../Fighter';
+
+export { Fighter };
+
+export default Battle;
