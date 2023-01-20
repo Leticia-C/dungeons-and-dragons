@@ -1,12 +1,9 @@
 import Fighter from '../Fighter';
-import Character from '../Character';
 import Battle from './Battle';
 
 export default class PVP extends Battle {
   constructor(private player1 : Fighter, private player2: Fighter) {
     super(player1);
-    this.player1 = new Character('Legolas');
-    this.player2 = player2;
   }
 
   figth() {
