@@ -73,8 +73,8 @@ export default class Character implements Fighter {
     if (this._energy !== undefined) {
       this._energy.amount = 10;
     }
-    if (this._race.maxLifePoints < this.maxLifePoints) {
-      this._maxLifePoints = this._race.maxLifePoints;
+    if (this._race.maxLifePoints < this._lifePoints) {
+      this._lifePoints = this._race.maxLifePoints;
     }
   } 
 
