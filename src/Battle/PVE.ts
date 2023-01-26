@@ -12,9 +12,10 @@ export default class PVE extends Battle {
 
   fight(): number {
     this.enemies.forEach((enemy) => {
-      while (enemy.lifePoints > 0 && this.player1.lifePoints > 0) {
+      while (enemy.lifePoints > 0 || this.player1.lifePoints > 0) {
         this.player1.attack(enemy);
         enemy.attack(this.player1);
+        if (enemy.lifePoints === -1 || this.player1.lifePoints === -1) break;
       }
     });
     return super.fight();
