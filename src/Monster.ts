@@ -1,13 +1,11 @@
-import { SimpleFighter } from './Fighter';
+import { SimpleFighter } from './Fighter/index';
 
 export default class Monster implements SimpleFighter {
   protected _lifePoints: number;
   private _strength: number;
-  private _defense: number;
   constructor() {
     this._lifePoints = 85;
     this._strength = 63;
-    this._defense = 0;
   }
 
   public get strength() {
@@ -18,17 +16,14 @@ export default class Monster implements SimpleFighter {
     return this._lifePoints;
   }
 
-  public get defense() {
-    return this._defense;
-  }
-
   attack(enemy: SimpleFighter): void {
-    this.receiveDamage(enemy.strength);
+    enemy.receiveDamage(this._strength);
   }
 
   receiveDamage(attackPoints: number): number {
-    const damage = attackPoints - this._defense;
-    if (this._lifePoints >= 0) return this._lifePoints - damage;
-    return -1;
+    if (attackPoints >= 0) this._lifePoints = -1;
+    this._lifePoints -= attackPoints;
+    if (this._lifePoints < 0) this._lifePoints = -1;
+    return this._lifePoints;
   }
 }

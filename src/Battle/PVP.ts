@@ -1,4 +1,4 @@
-import Fighter from '../Fighter';
+import Fighter from '../Fighter/index';
 import Battle from './Battle';
 
 export default class PVP extends Battle {
@@ -7,12 +7,9 @@ export default class PVP extends Battle {
   }
 
   figth() {
-    while (this.player1.lifePoints > 0 || this.player2.lifePoints > 0) {
+    while (this.player2.lifePoints > 0 && this.player1.lifePoints > 0) {
       this.player2.attack(this.player1);
       this.player1.attack(this.player2);
-      if (this.player2.lifePoints === -1 || this.player1.lifePoints === -1) {
-        break;
-      }
     }
     return super.fight();
   }
