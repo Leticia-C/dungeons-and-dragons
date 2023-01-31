@@ -11,11 +11,9 @@
   <br>
     <br>
   
-  
-
-  <summary><strong>🐉 Contextualizando 🐲</strong></summary><br />
-
-
+<div align="center">
+  <h2>Contextualizando</h2><br />
+    </div>
   No universo de Dungeons and Dragons, quase todos os seres que andam por essas terras pertencem a uma **raça** definida.
 
   As diversas raças (como, por exemplo, Élfica, Orc ou Anã) definem as características das personagens dentro do jogo desde a sua criação, como os seus pontos de vida e a sua destreza. No entanto, existem seres bestiais denominados **monstros** que não possuem uma raça específica, mas podem lutar.
