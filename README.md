@@ -1,8 +1,7 @@
-# Boas vindas ao repositório do projeto Dungeons and Dragons!
+# Bem vinde ao Dungeons and Dragons!
 <div align="center">
   <img height="150px" align="right" src="https://theme.zdassets.com/theme_assets/9633455/9814df697eaf49815d7df109110815ff887b3457.png" />
   <div align="left" style="display: inline_block">
-    <h2>Módulo: DESENVOLVIMENTO BACK-END</h2>
     <p> Projeto realizado com a aplicação dos princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos RPG(Role Playing Game).
   </div>
   <br>
