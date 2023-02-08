@@ -1,14 +1,13 @@
-# Bem vinde ao Dungeons and Dragons!
+
 <div align="center">
-  <img height="150px" align="right" src="https://theme.zdassets.com/theme_assets/9633455/9814df697eaf49815d7df109110815ff887b3457.png" />
+   <h1> Bem vinde ao Dungeons and Dragons!</h1>
   <div align="left" style="display: inline_block">
-    <p> Projeto realizado com a aplicação dos princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos RPG(Role Playing Game).
+    <p> Projeto realizado com a aplicação dos princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos RPG(Role Playing Game)
+    durante o modulo de Back-End da Trybe.
   </div>
   <br>
 </div>
 <div >
-  <br>
-    <br>
   
 <div align="center">
   <h2>Contextualizando</h2><br />
